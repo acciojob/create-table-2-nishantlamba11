@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 20px;
+        }
+        td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        button {
+            margin-top: 10px;
+        }
