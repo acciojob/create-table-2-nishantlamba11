@@ -26,7 +26,7 @@ function createTable() {
         let row = document.createElement("tr");
         for (let j = 0; j < cn; j++) {
             let cell = document.createElement("td"); // ✅ Corrected to <td>
-            cell.textContent = `ROW - ${i} column-${j}`;
+          cell.textContent = `Row-${i} Column-${j}`; 
             row.append(cell);
         }
         table.append(row);
